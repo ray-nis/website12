@@ -9,11 +9,17 @@ header nav {
 }
 
 header nav a {
-  margin-right: 30px;
   color: #e8e8e8;
   text-decoration: none;
-  padding: 20px 5px;
+  padding: 20px;
   font-size: 1em;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+header nav a:hover {
+  background-color: #0AA1DA;
+  color: #fff;
 }
 
 .header-text {
@@ -61,6 +67,7 @@ header nav a {
   }
   header nav a {
     margin-right: 0px;
+    padding: 20px 5px;
   }
   .header-text {
     display: -webkit-box;

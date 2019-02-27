@@ -8,11 +8,16 @@ header {
         padding: 20px 0;
 
         a {
-            margin-right: 30px;
             color: #e8e8e8;
             text-decoration: none;
-            padding: 20px 5px;
+            padding: 20px;
             font-size: 1em;
+            transition: all .4s;
+
+            &:hover {
+                background-color: $lightColor;
+                color: #fff;
+            }
         }
     }
 }
@@ -56,6 +61,7 @@ header {
 
             a {
                 margin-right: 0px;
+                padding: 20px 5px;
             }
         }
     }
