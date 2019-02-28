@@ -99,7 +99,7 @@ header nav a:hover {
 
 .index-info .index-info-personal {
   width: 40%;
-  border-right: 1px solid red;
+  border-right: 5px solid #0088CC;
 }
 
 .index-info .index-info-personal div {
