@@ -67,6 +67,46 @@ header {
     }
 }
 
+.index-info {
+    display: flex;
+
+    h2 {
+        color: $strongColor;
+        font-size: 1.5em;
+        margin: 20px 0;
+    }
+
+    h3 {
+        font-family: $lightFont;
+        margin: 20px 0;
+    }
+
+    p {
+        font-family: $lightFont;
+        font-size: 0.8em;
+        padding-bottom: 20px;
+    }
+
+    .index-info-personal {
+        width: 40%;
+        border-right: 1px solid red;
+
+        div {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+
+    .index-info-work {
+        width: 60%;
+
+        .index-info-work-div {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}
+
 @media screen and (max-width: 1000px) {
     header {
         nav {
@@ -110,5 +150,23 @@ header {
 
     .index-textbox {
         padding: 20px 0;
+    }
+
+    .index-info {
+        display: flex;
+        flex-direction: column;
+
+        .index-info-personal {
+            width: 100%;
+            border-right: none;
+
+            div {
+                width: 80%;
+            }
+        }
+
+        .index-info-work {
+            width: 100%;
+        }
     }
 }
