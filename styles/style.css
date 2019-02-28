@@ -61,6 +61,19 @@ header nav a:hover {
   font-size: 1.2em;
 }
 
+.index-textbox {
+  background-color: #576268;
+  padding: 40px 0;
+}
+
+.index-textbox p {
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+
 @media screen and (max-width: 1000px) {
   header nav {
     text-align: center;
@@ -100,6 +113,9 @@ header nav a:hover {
   .header-text h3 {
     font-size: 1em;
     margin-bottom: 10px;
+  }
+  .index-textbox {
+    padding: 20px 0;
   }
 }
 
