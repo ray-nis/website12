@@ -1,0 +1,25 @@
+.footer {
+    padding: 20px 0;
+    background-color: $lightColor;
+    
+    div {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+
+        i {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            padding: 20px;
+            font-size: 30px;
+            color: #fff;
+            margin: 0 auto;
+            transition: all 0.4s;
+            background-color: $strongColor;
+        }
+    }
+}
