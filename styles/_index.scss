@@ -146,6 +146,41 @@ header {
     }
 }
 
+.index-info-hobbies {
+    width: 40%;
+    border-right: 5px solid $strongColor;
+
+    .index-info-hobbies-div {
+        width: 50%;
+        margin: 0 auto;
+
+        div {
+            display: flex;
+            margin: 20px 0;
+
+            i {
+                font-size: 1.3em;
+                margin-right: 10px;
+                color: #576268;
+            }
+
+            h6 {
+                font-size: 1.3em;
+                font-family: $lightFont;
+            }
+        }
+    }
+}
+
+.index-info-education {
+    width: 60%;
+
+    .index-info-education-div {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     header {
         nav {
@@ -228,5 +263,18 @@ header {
             width: 80%;
             text-align: left;
         }
+    }
+
+    .index-info-hobbies {
+        width: 100%;
+        border-right: none;
+
+        .index-info-hobbies-div {
+            width: 80%;
+        }
+    }
+
+    .index-info-education {
+        width: 100%;
     }
 }

@@ -160,6 +160,43 @@ header nav a:hover {
   font-family: "Montserrat", sans-serif;
 }
 
+.index-info-hobbies {
+  width: 40%;
+  border-right: 5px solid #0088CC;
+}
+
+.index-info-hobbies .index-info-hobbies-div {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.index-info-hobbies .index-info-hobbies-div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+.index-info-hobbies .index-info-hobbies-div div i {
+  font-size: 1.3em;
+  margin-right: 10px;
+  color: #576268;
+}
+
+.index-info-hobbies .index-info-hobbies-div div h6 {
+  font-size: 1.3em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.index-info-education {
+  width: 60%;
+}
+
+.index-info-education .index-info-education-div {
+  width: 80%;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1000px) {
   header nav {
     text-align: center;
@@ -238,6 +275,16 @@ header nav a:hover {
   .index-skills p {
     width: 80%;
     text-align: left;
+  }
+  .index-info-hobbies {
+    width: 100%;
+    border-right: none;
+  }
+  .index-info-hobbies .index-info-hobbies-div {
+    width: 80%;
+  }
+  .index-info-education {
+    width: 100%;
   }
 }
 
