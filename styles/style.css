@@ -184,7 +184,7 @@ header nav a:hover {
 }
 
 .index-info-hobbies .index-info-hobbies-div div h6 {
-  font-size: 1.3em;
+  font-size: 1em;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -304,13 +304,13 @@ header nav a:hover {
 }
 
 .footer div i {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 23px;
   color: #fff;
   margin: 0 auto;
   -webkit-transition: all 0.4s;
