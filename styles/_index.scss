@@ -181,6 +181,11 @@ header {
     }
 }
 
+.whiteColor {
+    color: #fff;
+    font-weight: bolder;
+}
+
 @media screen and (max-width: 1000px) {
     header {
         nav {

@@ -197,6 +197,11 @@ header nav a:hover {
   margin: 0 auto;
 }
 
+.whiteColor {
+  color: #fff;
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 1000px) {
   header nav {
     text-align: center;
