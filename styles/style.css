@@ -328,7 +328,8 @@ header nav a:hover {
   margin: 0 auto;
   padding: 50px 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
+  line-height: 1.1;
 }
 
 .hello-text p {
