@@ -323,6 +323,18 @@ header nav a:hover {
   background-color: #0088CC;
 }
 
+.hello-text {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+}
+
+.hello-text p {
+  padding: 10px 0;
+}
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
