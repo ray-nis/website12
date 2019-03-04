@@ -369,6 +369,16 @@ header nav a:hover {
   margin-bottom: 10px;
 }
 
+.projects div div a {
+  color: #0AA1DA;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.projects div div a:hover {
+  color: #0088CC;
+}
+
 @media screen and (max-width: 1000px) {
   .projects {
     display: -webkit-box;
